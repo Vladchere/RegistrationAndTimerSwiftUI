@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8621BA5F24D479B400885ED4 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8621BA5E24D479B400885ED4 /* StarterView.swift */; };
+		8621BA6124D47A0100885ED4 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8621BA6024D47A0100885ED4 /* RegisterView.swift */; };
+		8621BA6324D47A1F00885ED4 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8621BA6224D47A1F00885ED4 /* TimerView.swift */; };
+		8621BA6524D47A4F00885ED4 /* ButtonAppearanceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8621BA6424D47A4F00885ED4 /* ButtonAppearanceModifier.swift */; };
+		8621BA6724D47A6A00885ED4 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8621BA6624D47A6A00885ED4 /* TimeCounter.swift */; };
+		8621BA6924D47A7B00885ED4 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8621BA6824D47A7B00885ED4 /* UserManager.swift */; };
+		8621BA6B24D47A9E00885ED4 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8621BA6A24D47A9E00885ED4 /* DataManager.swift */; };
 		863A585924D4786500FBA2F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863A585824D4786500FBA2F6 /* AppDelegate.swift */; };
 		863A585B24D4786500FBA2F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863A585A24D4786500FBA2F6 /* SceneDelegate.swift */; };
-		863A585D24D4786500FBA2F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863A585C24D4786500FBA2F6 /* ContentView.swift */; };
 		863A585F24D4786900FBA2F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863A585E24D4786900FBA2F6 /* Assets.xcassets */; };
 		863A586224D4786900FBA2F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863A586124D4786900FBA2F6 /* Preview Assets.xcassets */; };
 		863A586524D4786900FBA2F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863A586324D4786900FBA2F6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8621BA5E24D479B400885ED4 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		8621BA6024D47A0100885ED4 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		8621BA6224D47A1F00885ED4 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		8621BA6424D47A4F00885ED4 /* ButtonAppearanceModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAppearanceModifier.swift; sourceTree = "<group>"; };
+		8621BA6624D47A6A00885ED4 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		8621BA6824D47A7B00885ED4 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		8621BA6A24D47A9E00885ED4 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		863A585524D4786500FBA2F6 /* RegistrationAndTimerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegistrationAndTimerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		863A585824D4786500FBA2F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		863A585A24D4786500FBA2F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		863A585C24D4786500FBA2F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		863A585E24D4786900FBA2F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		863A586124D4786900FBA2F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		863A586424D4786900FBA2F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +70,13 @@
 			children = (
 				863A585824D4786500FBA2F6 /* AppDelegate.swift */,
 				863A585A24D4786500FBA2F6 /* SceneDelegate.swift */,
-				863A585C24D4786500FBA2F6 /* ContentView.swift */,
+				8621BA5E24D479B400885ED4 /* StarterView.swift */,
+				8621BA6024D47A0100885ED4 /* RegisterView.swift */,
+				8621BA6224D47A1F00885ED4 /* TimerView.swift */,
+				8621BA6424D47A4F00885ED4 /* ButtonAppearanceModifier.swift */,
+				8621BA6624D47A6A00885ED4 /* TimeCounter.swift */,
+				8621BA6824D47A7B00885ED4 /* UserManager.swift */,
+				8621BA6A24D47A9E00885ED4 /* DataManager.swift */,
 				863A585E24D4786900FBA2F6 /* Assets.xcassets */,
 				863A586324D4786900FBA2F6 /* LaunchScreen.storyboard */,
 				863A586624D4786900FBA2F6 /* Info.plist */,
@@ -146,9 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8621BA6324D47A1F00885ED4 /* TimerView.swift in Sources */,
+				8621BA6B24D47A9E00885ED4 /* DataManager.swift in Sources */,
 				863A585924D4786500FBA2F6 /* AppDelegate.swift in Sources */,
+				8621BA6124D47A0100885ED4 /* RegisterView.swift in Sources */,
+				8621BA6724D47A6A00885ED4 /* TimeCounter.swift in Sources */,
 				863A585B24D4786500FBA2F6 /* SceneDelegate.swift in Sources */,
-				863A585D24D4786500FBA2F6 /* ContentView.swift in Sources */,
+				8621BA5F24D479B400885ED4 /* StarterView.swift in Sources */,
+				8621BA6524D47A4F00885ED4 /* ButtonAppearanceModifier.swift in Sources */,
+				8621BA6924D47A7B00885ED4 /* UserManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
